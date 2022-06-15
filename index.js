@@ -35,7 +35,7 @@ function distanceFromHqInFeet(someValue) {
       return (feetTravelled - 400) * 0.02;
     }else if (feetTravelled > 2000 && feetTravelled <= 2500) {
       return 25;
-    }else if (feetTravelled > 2500) {
+    }else {
       return ('cannot travel that far')
     }
 
